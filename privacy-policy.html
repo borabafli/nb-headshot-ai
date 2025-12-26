@@ -209,7 +209,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated"><strong>Last Updated:</strong> December 23, 2024</p>
+        <p class="last-updated"><strong>Last Updated:</strong> December 26, 2024</p>
 
         <div class="important-notice">
             <strong>Important Notice:</strong> AI Headshot Generator processes your photos to generate professional
@@ -344,7 +344,29 @@
             </div>
 
             <div class="summary-item">
-                <strong>1.4 How Long Is Face Data Retained?</strong>
+                <strong>1.4 Third-Party Face Data Storage Practices</strong>
+                <p>Apple requires us to disclose whether our third-party service providers store your face data. Here is the explicit disclosure:</p>
+
+                <p><strong>Google Gemini API (AI Processing):</strong></p>
+                <ul>
+                    <li><strong>Does Google store your face data?</strong> <u>NO</u>. Google Gemini API does NOT store your face data.</li>
+                    <li><strong>How is data handled?</strong> Your photos are transmitted securely (encrypted via HTTPS/TLS), processed in real-time memory for AI headshot generation, and immediately discarded after processing completes.</li>
+                    <li><strong>Retention period:</strong> Zero. No face data is retained by Google after the API request is completed.</li>
+                    <li><strong>Google's privacy practices:</strong> Google processes data in accordance with their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://cloud.google.com/terms/data-processing-addendum" target="_blank">Data Processing Addendum</a>. The Gemini API is subject to Google's enterprise data handling policies which prohibit using customer data to train AI models.</li>
+                </ul>
+
+                <p><strong>Supabase (Cloud Storage Provider):</strong></p>
+                <ul>
+                    <li><strong>Does Supabase store your face data?</strong> <u>YES</u>. Supabase stores your uploaded photos and generated headshots on our behalf as our cloud storage provider.</li>
+                    <li><strong>Why does Supabase store face data?</strong> Supabase acts as our secure cloud infrastructure provider. They store your images solely to enable us to provide the headshot generation service to you, including allowing you to access your generation history and download your headshots.</li>
+                    <li><strong>How long does Supabase store face data?</strong> Supabase retains your face data until: (a) you delete it using the in-app "Delete All Data" feature, (b) you request deletion via email, or (c) your data becomes inactive for 2 years, after which it may be automatically deleted.</li>
+                    <li><strong>Why this retention period?</strong> This retention period allows you to access your generated headshots at any time without time pressure. The 2-year inactivity limit ensures data is not stored indefinitely for abandoned accounts while giving active users continuous access to their images.</li>
+                    <li><strong>Supabase's privacy practices:</strong> Supabase processes data in accordance with their <a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://supabase.com/docs/company/terms" target="_blank">Terms of Service</a>. Supabase is SOC 2 Type II compliant, uses encryption at rest and in transit, and operates under strict data protection standards. Supabase does not access, use, or share your stored images for any purpose other than providing storage services to us.</li>
+                </ul>
+            </div>
+
+            <div class="summary-item">
+                <strong>1.5 How Long Is Face Data Retained?</strong>
                 <p><strong>Original Photos:</strong> Retained temporarily in cloud storage to facilitate the generation
                     process and then are subject to deletion. They are not permanently archived.</p>
                 <p><strong>Generated Headshots:</strong> Retained in cloud storage until you choose to delete them via
@@ -353,7 +375,7 @@
             </div>
 
             <div class="summary-item">
-                <strong>1.5 Data Location</strong>
+                <strong>1.6 Data Location</strong>
                 <p>All face data is stored securely in Supabase's cloud infrastructure (US region) and processed via
                     Google's enterprise AI cloud services.</p>
             </div>
